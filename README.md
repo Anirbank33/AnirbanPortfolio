@@ -2,7 +2,7 @@
 
 ## 🚀 Live Project
 
-👉 **[🔗 View Live Project](https://anirbank33.github.io/AnirbanPortfolio/1stFrontEndProject.html)**
+👉 **[🔗 View Live Project](https://anirbank33.github.io/AnirbanPortfolio/)**
 
 ## 🛠️ Built Manually
 
@@ -30,7 +30,7 @@ AI was **not used to generate the source code** of this webpage. The code was wr
 
 ```text
 📦 My-First-Frontend-Project
- ├── 📄 1stFrontEndProject.html
+ ├── 📄 index.html
  └── 📄 README.md
 ```
 
@@ -52,5 +52,5 @@ This project was created to practice fundamental frontend development concepts, 
 
 ## 🔗 Project Resources
 
-- **[🌐 Live Website](https://anirbank33.github.io/AnirbanPortfolio/1stFrontEndProject.html)**
-- **[💻 Source Code](./1stFrontEndProject.html)**
+- **[🌐 Live Website](https://anirbank33.github.io/AnirbanPortfolio/)**
+- **[💻 Source Code](./index.html)**
