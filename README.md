@@ -2,7 +2,7 @@
 
 ## 🚀 Live Project
 
-👉 **[🔗 View Live Project](https://YOUR-USERNAME.github.io/My-First-Frontend-Project/)**
+👉 **[🔗 View Live Project]([https://YOUR-USERNAME.github.io/My-First-Frontend-Project/](https://anirbank33.github.io/AnirbanPortfolio/))**
 
 > Replace `YOUR-USERNAME` with your GitHub username and `My-First-Frontend-Project` with your exact repository name.
 
@@ -54,5 +54,5 @@ This project was created to practice fundamental frontend development concepts, 
 
 ## 🔗 Project Resources
 
-- **[🌐 Live Website](https://YOUR-USERNAME.github.io/My-First-Frontend-Project/)**
+- **[🌐 Live Website](https://anirbank33.github.io/AnirbanPortfolio/)**
 - **[💻 Source Code](./1stFrontEndProject.html)**
