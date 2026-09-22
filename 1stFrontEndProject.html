@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bungee+Tint&family=Cabin+Sketch:wght@400;700&family=Delicious+Handrawn&family=Freckle+Face&family=Give+You+Glory&family=Handjet:wght,ELSH@100..900,2&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Sketch&family=Noto+Sans+Sundanese:wght@400..700&family=Permanent+Marker&family=Reenie+Beanie&family=Rock+Salt&family=Syne+Tactile&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://anirbank33.github.io/AnirbanPortfolio/">
-    <script>window.location.replace("https://anirbank33.github.io/AnirbanPortfolio/");</script>
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        body {
+            display: grid;
+            grid-template-columns: 10px repeat(10, 1fr) 10px;
+            margin: 0;
+            padding: 0;
+            font-family: "Freckle Face", system-ui;
+            gap: 5px;
+            font-style: normal;
+        }
+        div {
+            box-shadow: 4px 4px 8px rgb(238, 158, 8);
+            margin: 10px;
+        }
+        .button:hover {
+            transform: rotate3d(2px);
+        }
+        .button {
+            display: flex;
+            box-shadow: 4px 4px 9px rgb(252, 168, 13);
+            top: 10px;
+            bottom: 15px;
+            padding: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-1 {
+            grid-column: 2 / 12;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: minmax(40px, 1fr) minmax(40px, 1fr) minmax(40px, 1fr);
+        }
+         @media screen and (max-width: 600px) {
+            .main-1 {
+            grid-column: 2 / 12;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+         img {
+        max-width: 100%;
+        height: auto;
+    }
+    .h1-1:hover {
+        text-shadow: 0 0 10px #eaf78a, 0 0 20px;
+            transition: 0.5s;
+            cursor: pointer;
+    }
+       
+    </style>
 </head>
 <body>
-    <p>Redirecting to <a href="https://anirbank33.github.io/AnirbanPortfolio/">https://anirbank33.github.io/AnirbanPortfolio/</a>...</p>
+    <header style="grid-column: 1 / 13; background-color: lch(75.07% 73.45 70.34); color: rgb(0, 0, 0); display: flex; align-items: center; justify-content: space-between; box-shadow: 3px 3px 9px black; padding: 10px; font-size: px;">
+        <h1 class="h1-1" style="margin: 1%;">Login</h1>
+        <nav style="margin: 1%;">
+            <a style="text-decoration: none; margin-right: 10px; margin-left: 10px; font-size: 25px;" href="">Home</a>
+            <a style="text-decoration: none; margin-right: 10px; margin-left: 10px; font-size: 25px;" href="">About</a>
+            <a style="text-decoration: none; margin-right: 10px; margin-left: 10px; font-size: 25px;" href="">Contact</a>
+        </nav>
+
+    </header>
+    <main class="main-1";">
+        <!-- FISRT COLUMN STATS FROM HERE -->
+
+        <section style="display: flex; flex-direction: column;">
+                <div style="padding: 10px;"><h1>Hi, This is Anirban</h1>
+                <img style="border-radius: 50%; box-shadow: 3px 3px 3px black; height: 150px; width: 150px;" src="https://static.vecteezy.com/system/resources/thumbnails/058/032/877/small/magnificent-traditional-hipster-beard-man-isolated-detailed-png.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, eveniet?</p></div>
+                <div style="box-shadow: 3px 3px 9px orange; padding: 10px;">
+            <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; width: 20%;">Button1</button>
+            <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; width: 20%;">Button2</button>
+            <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; width: 20%;">Button3</button>
+                </div>
+                <div style="padding: 10px;"">
+                    <h1>Heading</h1>
+                    <img style="box-shadow: 3px 3px 9px black; border-radius: 0 40px 0 40px;" src="https://picsum.photos/500/200" alt="">
+                    <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta magnam impedit labore sed rerum est alias veniam accusamus illo minus.</p>
+                </div>
+        </section>
+        <!-- COLOAM 1 ENDS HERE -->
+        <!-- COLAMN 2 STARTS HERE -->
+        <section style="display: flex; flex-direction: column;">
+            <div style="padding: 2%; margin: 10px;"><h1>To apply hit the button bellow</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt cum magni minima cupiditate libero asperiores!</p>
+            <input style="border: 2px solid rgb(0, 0, 0); box-shadow: 4px 4px 8px rgb(0, 0, 0); padding: 1%;" type="text">
+            <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; padding: 1%; width: 20%;">send</button></div>
+            <div style="padding: 10px;">
+                <img style="width: 100px; height: 100px; box-shadow: 3px 3px 9px black; border-radius: 0 40% 0 40%;" src="https://img.magnific.com/free-psd/3d-illustration-human-avatar-profile_23-2150671124.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                <h1>My name</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quo repellendus incidunt suscipit ad. Explicabo corrupti ipsum odio? Vero amet laudantium facere. Mollitia sequi omnis qui veniam provident dolorum blanditiis, delectus repellendus rem corporis id non.</p>
+                <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; width: 20%;">BUTTON1</button>
+                <button style="border: 2px solid black;box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange; width: 20%;">BUTTON2</button>
+            </div>
+            <div style="padding: 10px;">
+                <img style="box-shadow: 3px 3px 9px black; border-radius: 0 10% 0 10%;" src="https://picsum.photos/230/230" alt="">
+                <h1>Heading</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis delectus cum distinctio beatae laudantium ipsa fugiat ipsum iste? Dolor expedita ipsum nobis tempora ratione voluptas facilis deleniti beatae debitis aliquam.</p>
+            </div>
+        </section>
+        <section style="display: grid; flex-direction: column;">
+            <div style="padding: 10px; margin: 2%;">
+            <h1>My profile</h1>
+            <img style="box-shadow: 3px 3px 9px black; border-radius: 0 10% 0 10%;" src="https://picsum.photos/500/500" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed omnis modi porro sequi, praesentium explicabo nulla, accusamus optio</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis eaque animi itaque minima eius officiis architecto repellendus, quaerat vitae excepturi sed incidunt sapiente voluptates dolore maxime iure porro tempora laudantium. Asperiores placeat eum enim, natus beatae quaerat sunt adipisci possimus, vitae et necessitatibus animi, accusantium quia at molestiae magnam voluptatum dolorem? Velit natus aspernatur fugiat, cupiditate tenetur eos debitis quam odio iure ducimus, nihil minus porro quis. Animi odit atque tempore possimus sapiente natus ad minus assumenda, a repudiandae veritatis iusto molestiae perferendis exercitationem et porro maiores laudantium, quam inventore nesciunt voluptatem vero iure error voluptas? Pariatur, a id!</p>
+            <br>
+            <button style="border: 2px solid black; width: 20%; height: 3%; box-shadow: 3px 3px 9px black; border-radius: 5px; background-color: orange;">info</button></div>
+        </section>
+
+    </main>
 </body>
 </html>
