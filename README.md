@@ -2,6 +2,10 @@
 
 ## 🚀 Live Project
 
+👉 **[🔗 View Live Project](https://anirbank33.github.io/AnirbanPortfolio/1stFrontEndProject.html)**
+
+## 🛠️ Built Manually
+
 This webpage was **designed and developed manually by me**, without using AI to generate the website's source code.
 
 I intentionally kept the implementation **simple, clean, and minimal**, using only the code required to build the webpage.
@@ -48,4 +52,5 @@ This project was created to practice fundamental frontend development concepts, 
 
 ## 🔗 Project Resources
 
+- **[🌐 Live Website](https://anirbank33.github.io/AnirbanPortfolio/1stFrontEndProject.html)**
 - **[💻 Source Code](./1stFrontEndProject.html)**
